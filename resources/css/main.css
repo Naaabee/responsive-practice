@@ -97,3 +97,32 @@ li {
     height: auto;
 }
 
+
+/* Third Section */
+
+.third-sec {
+    background-color: #008080;
+    height: 350px;
+    position: relative;  
+}
+
+.bullshit-2 {
+    position: absolute;
+    margin: 20px 20px;
+    background-color: transparent;
+}
+
+.third-sec h1{
+    top: 50px;
+    font-size: 50px;
+    font-weight: 400;
+    color: yellow;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.third-sec p {
+    top: 150px;
+    color: yellow;
+    background-color: transparent;
+}
