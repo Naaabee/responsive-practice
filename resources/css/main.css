@@ -97,6 +97,29 @@ li {
     height: auto;
 }
 
+@media only screen and (max-width: 1050px) {
+    .images-1 {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-1 .image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-1 img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
 
 /* Third Section */
 
@@ -150,6 +173,30 @@ li {
 .images-2 img {
     width: 90%;
     height: auto;
+}
+
+@media only screen and (max-width: 1050px) {
+    .images-2 {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-2 .image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .images-2 img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
 
 /* Last Section */
